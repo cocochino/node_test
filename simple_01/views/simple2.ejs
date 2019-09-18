@@ -3,14 +3,16 @@
  
 <head>
     <meta charset="UTF-8">
+    <title>Simple Example 2</title>
 </head>
  
 <body>
-    <p><%=name %></p>
-    <p><%=message %></p>
+    <H1>Phrito's Shop</H1>
+    <p>Item: <%=item %></p>
+    <p>At price: $<%=price %></p>
     <form action="/" method="post">
-        <input type="text" name="name" value="Name">
-        <input type="text" name="message" value="Message">
+        <input type="text" name="item" value="Enter item name">
+        <input type="text" name="price" value="Enter item price">
         <button type="submit" name="button">POST</button>
     </form>
 </body>

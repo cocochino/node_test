@@ -9,6 +9,9 @@ const express = require("express");
 //Create Express applicaton called app
 const app = express();
 
+
+console.log("simple1.js has been started")
+
 app.get("/", (req, res) => res.send("Simple Example 1"));
 
 const httpServer = app.listen(2000);
